@@ -15,7 +15,7 @@ module.exports=WebpackMerge.merge(baseWenbackConfig,{
    devtool: 'eval-source-map',
    devServer: {
      host: 'localhost',
-     port: 8089,
+     port: 8080,
      // 要求每次都返回HTML，不配置会出现can not GET/
      historyApiFallback: true,
      hot: true

@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.less';
+import Routes from './routes';
 
 export default ()=>{
-
+  
  return(
-  <div className='app'> 
-   <div>HELLO</div>
-  </div>
+   <Router>
+     <Routes></Routes>
+   </Router>
  )
 }

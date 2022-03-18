@@ -14,7 +14,7 @@ module.exports=WebpackMerge.merge(baseWebpackConfig,{
    new HtmlWebpackPlugin({
     filename: "index.html",
     template: "public/index.html",
-    inject: true,
+    inject: true, // true：默认值，script标签位于html文件的 body 底部
     minify: {
       removeComments: true,            
       collapseWhitespace: true,           

@@ -1,9 +1,9 @@
 {
  "compilerOptions": {
    /* Basic Options */
-   "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
-   "module": "esnext",                       /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
-   "lib": [
+   "target": "es5",        //指定es版本
+   "module": "esnext",     //指定生成模板代码
+   "lib": [                //编译过程需要引入的库文件
      "dom",
      "dom.iterable",
      "esnext"
@@ -23,9 +23,9 @@
    "baseUrl": ".",                       /* Base directory to resolve non-absolute module names. */
    "allowSyntheticDefaultImports": true,     /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
-   "experimentalDecorators": true,           /* Enables experimental support for ES7 decorators. */
+   "experimentalDecorators": true,          /* Enables experimental support for ES7 decorators. */
+  //  "experimentalDecorators":true,
    "paths": {
-
    }
  },
  "include": [
@@ -33,5 +33,6 @@
  ],
  "exclude": [
    "node_modules"
- ]
+ ],
+ 
 }

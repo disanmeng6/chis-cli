@@ -1,5 +1,5 @@
 
-const path=require('path');
+const path=require("path");
 
 module.exports={
  entry:path.join(__dirname,'../src/main.tsx'),
@@ -8,7 +8,7 @@ module.exports={
    {
     test: /.(js|jsx|ts|tsx)$/,
     exclude: /(node_modules|bower_components)/,
-    use: {
+    use: { 
       loader: 'babel-loader',
       options: {
         presets: ['@babel/preset-env']
