@@ -3,7 +3,14 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "计数器",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/jsqInfo/index",
+			"style": {
+				"navigationBarTitleText": "详细"
 			}
 		}
 	],
